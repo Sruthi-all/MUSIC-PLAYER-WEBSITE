@@ -1,20 +1,20 @@
 # MUSIC-PLAYER-WEbSITE
 A fully responsive **Music Player Website** built using **HTML, CSS, and JavaScript**.  
 This project allows users to play, pause, skip, and control music with an attractive user interface and responsive design
-## 🚀 Features
+##  Features
 
-- 🎧 Play and Pause Songs
-- ⏭ Next and Previous Track Controls
-- 🔊 Volume Control
-- 📱 Responsive Design for Mobile and Desktop
-- 🎨 Modern UI Design
-- 📂 Playlist Support
-- ⌛ Song Progress Bar
-- 💡 Smooth Animations
+-  Play and Pause Songs
+-  Next and Previous Track Controls
+-  Volume Control
+-  Responsive Design for Mobile and Desktop
+-  Modern UI Design
+-  Playlist Support
+-  Song Progress Bar
+-  Smooth Animations
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **HTML5** – Structure of the website
 - **CSS3** – Styling and responsive layout
@@ -22,7 +22,7 @@ This project allows users to play, pause, skip, and control music with an attrac
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```bash
 Music-Player-Website/
