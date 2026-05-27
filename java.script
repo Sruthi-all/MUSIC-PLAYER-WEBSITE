@@ -1,0 +1,29 @@
+// Select Elements
+const playBtn = document.getElementById("playBtn");
+const pauseBtn = document.getElementById("pauseBtn");
+const audio = document.getElementById("audio");
+const songTitle = document.getElementById("song-title");
+
+// Play Music Function
+function playMusic() {
+    audio.play();
+    songTitle.innerHTML = "Playing Music...";
+}
+
+// Pause Music Function
+function pauseMusic() {
+    audio.pause();
+    songTitle.innerHTML = "Music Paused";
+}
+
+// Event Listeners
+playBtn.addEventListener("click", playMusic);
+
+pauseBtn.addEventListener("click", pauseMusic);
+
+// Dynamic Task Creation Example
+const newMessage = document.createElement("p");
+
+newMessage.innerHTML = "Enjoy Your Music!";
+
+document.body.appendChild(newMessage);
