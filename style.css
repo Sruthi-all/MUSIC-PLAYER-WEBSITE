@@ -1,0 +1,78 @@
+/* Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Music Player Container */
+.music-container {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+}
+
+/* Heading */
+.music-container h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Song Image */
+.music-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Song Title */
+#song-title {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Buttons Container */
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00b894;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Button Hover */
+button:hover {
+    background-color: #019875;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+
+    .music-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .music-image {
+        width: 200px;
+        height: 200px;
+    }
+}
