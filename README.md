@@ -56,14 +56,17 @@ music-player-website/
 - Attractive UI Design
 - Mobile Friendly Layout
 - Dynamic Playlist Handling
+
 #  Output Preview
 Music Player Website with:
 - Song Controls
 - Responsive Layout
 - Interactive Buttons
 - Playlist Section
+
 #  Developed By
 **Avishkarana Internship Student**
+
 #  Conclusion
 This project helped in understanding:
 - Web Development Basics
